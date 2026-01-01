@@ -20,6 +20,9 @@ Skills are markdown files that teach Claude Code how to interact with specific s
 | [multi-model-aggregator](skills/multi-model-aggregator/SKILL.md) | Multi-model LLM aggregation | Barz |
 | [healthy-dashboard](skills/healthy-dashboard/SKILL.md) | Service monitoring dashboard | Barz |
 | [chatgpt-pro-api](skills/chatgpt-pro-api/SKILL.md) | ChatGPT Pro API via Chrome automation | - |
+| [deploy-server](skills/deploy-server/SKILL.md) | Docker deployment guide for gpu5090 server | - |
+| [agentic-chatbot](skills/agentic-chatbot/SKILL.md) | Claude Code / Codex CLI HTTP wrapper service | - |
+| [paper2notebook](skills/paper2notebook/SKILL.md) | Paper to presentation service (NotebookLM) | - |
 
 ## Installation
 
@@ -27,7 +30,7 @@ Copy the `skills/` directory to your project's `.claude/skills/` folder:
 
 ```bash
 # Clone this repo
-git clone https://github.com/peterhu/whaleforce-claude-skills.git
+git clone https://github.com/barzhsu-whaleforce/whaleforce-claude-skills.git
 
 # Copy skills to your project
 cp -r whaleforce-claude-skills/skills /path/to/your/project/.claude/
@@ -37,7 +40,7 @@ Or add as a submodule:
 
 ```bash
 cd your-project/.claude
-git submodule add https://github.com/peterhu/whaleforce-claude-skills.git skills-repo
+git submodule add https://github.com/barzhsu-whaleforce/whaleforce-claude-skills.git skills-repo
 ln -s skills-repo/skills skills
 ```
 
